@@ -8,20 +8,22 @@ class Employee {
         this.role = role;
     }
 
-    getName(data) {
+    getName() {
+        return this.name;
+    }
+
+    getId() {
+        return this.id;
 
     }
 
-    getId(data) {
+    getEmail(){
+        return this.email;
 
     }
-
-    getEmail(data){
-
-    }
-    getRole(data){
-        return this.role = "Employee"
+    getRole(){
+        return this.role = "Employee";
     }
 }
 
-moduel.exports = Employee;
+module.exports = Employee;
